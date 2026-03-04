@@ -1,6 +1,6 @@
 <h1>Projeto: Conectando Api Dummy Json.</h1>
 <h2>Objetivo:</h2>Consumir dados de uma API e exibir dentro do recyclerView
-<h3>Api utilizada >>> https://dummyjson.com/</h3>
+<h3>Api utilizada > https://dummyjson.com/</h3>
 <hr>
 
 A aplicação tem como função mostrar a possibilidade de como consumir uma API usando o método Get e organizar a informação dentro de um recyclerView exibindo o titulo e imagem do aplicativo, ao consumir a Api fiz uso da biblioteca Retrofit
