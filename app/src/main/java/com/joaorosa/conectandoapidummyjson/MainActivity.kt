@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.joaorosa.conectandoapidummyjson.adapter.DummyImageAdapter
 import com.joaorosa.conectandoapidummyjson.model.ProductResponse
 import com.joaorosa.conectandoapidummyjson.api.RetrofitService
@@ -36,7 +37,8 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
 
         binding.rvDummy.adapter = dummyImageAdapter
-        binding.rvDummy.layoutManager = GridLayoutManager(this, 2)
+        binding.rvDummy.layoutManager = LinearLayoutManager(this)
+
 
         recoveryImageDummy()
     }
