@@ -12,6 +12,6 @@ object RetrofitService {
         .addConverterFactory( GsonConverterFactory.create() )
         .build()
 
-    val ApiDummy = retrofit.create(DummyApi::class.java)
+    val ApiDummy = retrofit.create(DummyAPI::class.java)
 
 }
